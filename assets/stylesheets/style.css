@@ -49,3 +49,22 @@ div div p {
   padding: 1rem;
   outline-offset: 0.5rem;
 }
+
+img {
+  height: 200px;
+  width: 200px;
+  border: thick double #32a1ce;
+  border-bottom-right-radius: 50px;
+}
+
+div div div img {
+  border-top-left-radius: 100px;
+}
+
+div img {
+  border-top-right-radius: 20px;
+}
+
+div div img {
+  border-bottom-left-radius: 200px;
+}
