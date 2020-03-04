@@ -1,0 +1,66 @@
+body {
+  background-color: #efef1;
+}
+
+h1 {
+  font-family: serif;
+}
+
+[href] {
+  color: maroon
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: lightblue;
+  border: solid blue 2px;
+}
+
+a:visited {
+  color: maroon;
+}
+
+a:hover {
+  color: pink;
+}
+
+.big-text {
+  font-size: 50px;
+}
+
+.square {
+  height: 175px;
+  width: 175px;
+  background-color: red;
+  text-align: center;
+}
+
+.square p {
+  padding-top: 40%;
+  color: cyan;
+}
+
+.circle {
+  background-color: lightgreen;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-top: 50px;
+  text-align: center;
+  color: brown;
+}
+
+.circle p {
+  padding-top: 40px;
+}
+
+#fairbanks {
+  float: left;
+}
+
+#town {
+  width: 75%;
+  float: right;
+  padding-bottom: 50px;
+}
